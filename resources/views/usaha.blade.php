@@ -52,13 +52,9 @@
     <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/page-title-bg.webp);">
       <div class="container position-relative">
         <h1>Services</h1>
-        <p>
-          Home
-          /
-          Services</p>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="{{ url('/main') }}">Home</a></li>
             <li class="current">Services</li>
           </ol>
         </nav>

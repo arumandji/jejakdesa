@@ -9,25 +9,25 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Beranda</a></li>
+          <li><a href="/dashboard" class="active">Beranda</a></li>
           <li class="dropdown"><a href="#"><span>Desa Wisata</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Peta Desa</a></li>
-              <li><a href="#">Rekomendasi</a></li>
-              <li><a href="#">Pencarian</a></li>
+              <li><a href="/peta">Peta Desa</a></li>
+              <li><a href="/rekomendasi">Rekomendasi</a></li>
+              <li><a href="/pencarian">Pencarian</a></li>
             </ul>
           </li>
-          <li><a href="services.html">Usaha Lokal</a></li>
-          <li><a href="testimonials.html">Event</a></li>
-          <li><a href="blog.html">Booking</a></li>
-          <li><a href="testimonials.html">Testimoni</a></li>
+          <li><a href="/usaha">Usaha Lokal</a></li>
+          <li><a href="/event">Event</a></li>
+          <li><a href="/booking">Booking</a></li>
+          <li><a href="/testimoni">Testimoni</a></li>
           <li class="dropdown"><a href="#"><span>Bantuan</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li class="dropdown"><a href="#"><span>Tentang Kami</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <li><a href="#">Visi</a></li>
-                  <li><a href="#">Misi</a></li>
-                  <li><a href="#">Tim JejakDesa</a></li>
+                  <li><a href="/visi">Visi</a></li>
+                  <li><a href="/misi">Misi</a></li>
+                  <li><a href="/tim">Tim JejakDesa</a></li>
                 </ul>
               </li>
               <li><a href="#">Hubungi Kami</a></li>

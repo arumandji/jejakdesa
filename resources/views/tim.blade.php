@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Testimonials - AgriCulture Bootstrap Template</title>
+  <title>Contact - AgriCulture Bootstrap Template</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -37,45 +37,11 @@
   ======================================================== -->
 </head>
 
-<body class="testimonials-page">
+<body class="contact-page">
 
-  <header id="header" class="header d-flex align-items-center position-relative">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/logo.png" alt="AgriCulture">
-        <!-- <h1 class="sitename">AgriCulture</h1>  -->
-      </a>
 
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="services.html">Our Services</a></li>
-          <li><a href="testimonials.html" class="active">Testimonials</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
+      @include('navbar')
 
     </div>
   </header>
@@ -85,88 +51,103 @@
     <!-- Page Title -->
     <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/page-title-bg.webp);">
       <div class="container position-relative">
-        <h1>Testimonials</h1>
+        <h1>Contact</h1>
         <p>
           Home
           /
-          Testimonials
+          Contact
         </p>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Testimonials</li>
+            <li class="current">Contact</li>
           </ol>
         </nav>
       </div>
     </div><!-- End Page Title -->
 
-    <!-- Testimonials Section -->
-    <section class="testimonials-12 testimonials section" id="testimonials">
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>TESTIMONIALS</h2>
-        <p>Necessitatibus eius consequatur</p>
-      </div><!-- End Section Title -->
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
 
-      <div class="testimonial-wrap">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 mb-4 mb-md-4">
-              <div class="testimonial">
-                <img src="assets/img/testimonials/testimonials-1.jpg" alt="Testimonial author">
-                <blockquote>
-                  <p>
-                    “Lorem ipsum dolor sit, amet consectetur adipisicing
-                    elit. Provident deleniti iusto molestias, dolore vel fugiat
-                    ab placeat ea?”
-                  </p>
-                </blockquote>
-                <p class="client-name">James Smith</p>
-              </div>
+      <div class="mb-5">
+        <iframe 
+        style="width: 100%; height: 400px;" 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7804633903665!2d112.7573629!3d-7.2720872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fbd38ea51a2f%3A0x2640d21feb8c9fd8!2sUniversitas%20Airlangga%20-%20Campus%20B!5e0!3m2!1sen!2sid!4v1700000000000" 
+        frameborder="0" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+            </div><!-- End Google Maps -->
+
+      <div class="container" data-aos="fade">
+
+        <div class="row gy-5 gx-lg-5">
+
+          <div class="col-lg-4">
+
+            <div class="info">
+              <h3>Get in touch</h3>
+              <p>Et id eius voluptates atque nihil voluptatem enim in tempore minima sit ad mollitia commodi minus.</p>
+
+              <div class="info-item d-flex">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h4>Location:</h4>
+                  <p>Gubeng, Surabaya, Indonesia</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h4>Email:</h4>
+                  <p>info@example.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-phone flex-shrink-0"></i>
+                <div>
+                  <h4>Call:</h4>
+                  <p>+1 5589 55488 55</p>
+                </div>
+              </div><!-- End Info Item -->
+
             </div>
-            <div class="col-md-6 mb-4 mb-md-4">
-              <div class="testimonial">
-                <img src="assets/img/testimonials/testimonials-2.jpg" alt="Testimonial author">
-                <blockquote>
-                  <p>
-                    “Lorem ipsum dolor sit, amet consectetur adipisicing
-                    elit. Provident deleniti iusto molestias, dolore vel fugiat
-                    ab placeat ea?”
-                  </p>
-                </blockquote>
-                <p class="client-name">Kate Smith</p>
-              </div>
-            </div>
-            <div class="col-md-6 mb-4 mb-md-4">
-              <div class="testimonial">
-                <img src="assets/img/testimonials/testimonials-3.jpg" alt="Testimonial author">
-                <blockquote>
-                  <p>
-                    “Lorem ipsum dolor sit, amet consectetur adipisicing
-                    elit. Provident deleniti iusto molestias, dolore vel fugiat
-                    ab placeat ea?”
-                  </p>
-                </blockquote>
-                <p class="client-name">Claire Anderson</p>
-              </div>
-            </div>
-            <div class="col-md-6 mb-4 mb-md-4">
-              <div class="testimonial">
-                <img src="assets/img/testimonials/testimonials-4.jpg" alt="Testimonial author">
-                <blockquote>
-                  <p>
-                    “Lorem ipsum dolor sit, amet consectetur adipisicing
-                    elit. Provident deleniti iusto molestias, dolore vel fugiat
-                    ab placeat ea?”
-                  </p>
-                </blockquote>
-                <p class="client-name">Dan Smith</p>
-              </div>
-            </div>
+
           </div>
+
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" placeholder="Message" required=""></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div><!-- End Contact Form -->
+
         </div>
+
       </div>
-    </section><!-- /Testimonials Section -->
+
+    </section><!-- /Contact Section -->
 
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section light-background">

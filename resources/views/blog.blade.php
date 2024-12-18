@@ -10,23 +10,23 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="{{ asset('') }}assets/img/favicon.png" rel="icon">
+  <link href="{{ asset('') }}assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Marcellus:wght@400&display=swap" rel="stylesheet">
+  <link href="{{ asset('') }}https://fonts.googleapis.com" rel="preconnect">
+  <link href="{{ asset('') }}https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="{{ asset('') }}https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Marcellus:wght@400&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="{{ asset('') }}assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="{{ asset('') }}assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="{{ asset('') }}assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="{{ asset('') }}assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="{{ asset('') }}assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="{{ asset('') }}assets/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: AgriCulture
@@ -42,7 +42,7 @@
   <header id="header" class="header d-flex align-items-center position-relative">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="{{ asset('') }}index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="assets/img/logo.png" alt="AgriCulture">
         <!-- <h1 class="sitename">AgriCulture</h1>  -->
@@ -50,29 +50,29 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="services.html">Our Services</a></li>
-          <li><a href="testimonials.html">Testimonials</a></li>
-          <li><a href="blog.html" class="active">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li><a href="{{ asset('') }}index.html">Home</a></li>
+          <li><a href="{{ asset('') }}about.html">About Us</a></li>
+          <li><a href="{{ asset('') }}services.html">Our Services</a></li>
+          <li><a href="{{ asset('') }}testimonials.html">Testimonials</a></li>
+          <li><a href="{{ asset('') }}blog.html" class="active">Blog</a></li>
+          <li class="dropdown"><a href="{{ asset('') }}#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <li><a href="{{ asset('') }}#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="{{ asset('') }}#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
+                  <li><a href="{{ asset('') }}#">Deep Dropdown 1</a></li>
+                  <li><a href="{{ asset('') }}#">Deep Dropdown 2</a></li>
+                  <li><a href="{{ asset('') }}#">Deep Dropdown 3</a></li>
+                  <li><a href="{{ asset('') }}#">Deep Dropdown 4</a></li>
+                  <li><a href="{{ asset('') }}#">Deep Dropdown 5</a></li>
                 </ul>
               </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
+              <li><a href="{{ asset('') }}#">Dropdown 2</a></li>
+              <li><a href="{{ asset('') }}#">Dropdown 3</a></li>
+              <li><a href="{{ asset('') }}#">Dropdown 4</a></li>
             </ul>
           </li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="{{ asset('') }}contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -92,7 +92,7 @@
           Blog</p>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="{{ asset('') }}index.html">Home</a></li>
             <li class="current">Blog</li>
           </ol>
         </nav>
@@ -126,7 +126,7 @@
               <div class="post-content d-flex flex-column">
 
                 <h3 class="post-title">Dolorum optio tempore voluptas dignissimos</h3>
-                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                <a href="{{ asset('') }}blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
 
               </div>
 
@@ -153,7 +153,7 @@
 
               <div class="post-content d-flex flex-column">
                 <h3 class="post-title">Nisi magni odit consequatur autem nulla dolorem</h3>
-                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                <a href="{{ asset('') }}blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
               </div>
 
             </article>
@@ -178,7 +178,7 @@
 
               <div class="post-content d-flex flex-column">
                 <h3 class="post-title">Possimus soluta ut id suscipit ea ut. In quo quia et soluta libero sit sint.</h3>
-                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                <a href="{{ asset('') }}blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
               </div>
 
             </article>
@@ -203,7 +203,7 @@
 
               <div class="post-content d-flex flex-column">
                 <h3 class="post-title">Non rem rerum nam cum quo minus explicabo eius exercitationem.</h3>
-                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                <a href="{{ asset('') }}blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
               </div>
 
             </article>
@@ -230,7 +230,7 @@
               <div class="post-content d-flex flex-column">
 
                 <h3 class="post-title">Accusamus quaerat aliquam qui debitis facilis consequatur</h3>
-                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                <a href="{{ asset('') }}blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
 
               </div>
 
@@ -258,7 +258,7 @@
               <div class="post-content d-flex flex-column">
 
                 <h3 class="post-title">Distinctio provident quibusdam numquam aperiam aut</h3>
-                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                <a href="{{ asset('') }}blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
 
               </div>
 
@@ -276,14 +276,14 @@
       <div class="container">
         <div class="d-flex justify-content-center">
           <ul>
-            <li><a href="#"><i class="bi bi-chevron-left"></i></a></li>
-            <li><a href="#">1</a></li>
-            <li><a href="#" class="active">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
+            <li><a href="{{ asset('') }}#"><i class="bi bi-chevron-left"></i></a></li>
+            <li><a href="{{ asset('') }}#">1</a></li>
+            <li><a href="{{ asset('') }}#" class="active">2</a></li>
+            <li><a href="{{ asset('') }}#">3</a></li>
+            <li><a href="{{ asset('') }}#">4</a></li>
             <li>...</li>
-            <li><a href="#">10</a></li>
-            <li><a href="#"><i class="bi bi-chevron-right"></i></a></li>
+            <li><a href="{{ asset('') }}#">10</a></li>
+            <li><a href="{{ asset('') }}#"><i class="bi bi-chevron-right"></i></a></li>
           </ul>
         </div>
       </div>
@@ -329,7 +329,7 @@
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-4 col-md-6 footer-about">
-            <a href="index.html" class="logo d-flex align-items-center">
+            <a href="{{ asset('') }}index.html" class="logo d-flex align-items-center">
               <span class="sitename">AgriCulture</span>
             </a>
             <div class="footer-contact pt-3">
@@ -343,44 +343,44 @@
           <div class="col-lg-2 col-md-3 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
+              <li><a href="{{ asset('') }}#">Home</a></li>
+              <li><a href="{{ asset('') }}#">About us</a></li>
+              <li><a href="{{ asset('') }}#">Services</a></li>
+              <li><a href="{{ asset('') }}#">Terms of service</a></li>
+              <li><a href="{{ asset('') }}#">Privacy policy</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><a href="#">Web Design</a></li>
-              <li><a href="#">Web Development</a></li>
-              <li><a href="#">Product Management</a></li>
-              <li><a href="#">Marketing</a></li>
-              <li><a href="#">Graphic Design</a></li>
+              <li><a href="{{ asset('') }}#">Web Design</a></li>
+              <li><a href="{{ asset('') }}#">Web Development</a></li>
+              <li><a href="{{ asset('') }}#">Product Management</a></li>
+              <li><a href="{{ asset('') }}#">Marketing</a></li>
+              <li><a href="{{ asset('') }}#">Graphic Design</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
             <h4>Hic solutasetp</h4>
             <ul>
-              <li><a href="#">Molestiae accusamus iure</a></li>
-              <li><a href="#">Excepturi dignissimos</a></li>
-              <li><a href="#">Suscipit distinctio</a></li>
-              <li><a href="#">Dilecta</a></li>
-              <li><a href="#">Sit quas consectetur</a></li>
+              <li><a href="{{ asset('') }}#">Molestiae accusamus iure</a></li>
+              <li><a href="{{ asset('') }}#">Excepturi dignissimos</a></li>
+              <li><a href="{{ asset('') }}#">Suscipit distinctio</a></li>
+              <li><a href="{{ asset('') }}#">Dilecta</a></li>
+              <li><a href="{{ asset('') }}#">Sit quas consectetur</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
             <h4>Nobis illum</h4>
             <ul>
-              <li><a href="#">Ipsam</a></li>
-              <li><a href="#">Laudantium dolorum</a></li>
-              <li><a href="#">Dinera</a></li>
-              <li><a href="#">Trodelas</a></li>
-              <li><a href="#">Flexo</a></li>
+              <li><a href="{{ asset('') }}#">Ipsam</a></li>
+              <li><a href="{{ asset('') }}#">Laudantium dolorum</a></li>
+              <li><a href="{{ asset('') }}#">Dinera</a></li>
+              <li><a href="{{ asset('') }}#">Trodelas</a></li>
+              <li><a href="{{ asset('') }}#">Flexo</a></li>
             </ul>
           </div>
 
@@ -400,15 +400,15 @@
             <!-- You can delete the links only if you purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
             <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="https://themewagon.com">ThemeWagon</a>
+            Designed by <a href="{{ asset('') }}https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="{{ asset('') }}https://themewagon.com">ThemeWagon</a>
           </div>
         </div>
 
         <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
-          <a href=""><i class="bi bi-twitter-x"></i></a>
-          <a href=""><i class="bi bi-facebook"></i></a>
-          <a href=""><i class="bi bi-instagram"></i></a>
-          <a href=""><i class="bi bi-linkedin"></i></a>
+          <a href="{{ asset('') }}"><i class="bi bi-twitter-x"></i></a>
+          <a href="{{ asset('') }}"><i class="bi bi-facebook"></i></a>
+          <a href="{{ asset('') }}"><i class="bi bi-instagram"></i></a>
+          <a href="{{ asset('') }}"><i class="bi bi-linkedin"></i></a>
         </div>
 
       </div>
@@ -417,7 +417,7 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="{{ asset('') }}#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>

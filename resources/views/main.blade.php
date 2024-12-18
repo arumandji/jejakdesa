@@ -18,40 +18,41 @@
         <div class="carousel-item active">
           <img src="assets/img/hero_1.jpg" alt="">
           <div class="carousel-container">
-            <h2>Farming is the best solution of worlds starvation</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h2>Jelajahi Desa Wisata Indonesia</h2>
+            <p>Temukan keindahan, tradisi, dan potensi lokal yang menakjubkan di seluruh pelosok negeri.</p>
+            <a href="desa-wisata.html" class="btn btn-green">Mulai Eksplorasi</a>
           </div>
         </div><!-- End Carousel Item -->
 
         <div class="carousel-item">
           <img src="assets/img/hero_2.jpg" alt="">
           <div class="carousel-container">
-            <h2>Organic vegetables is good for health</h2>
-            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
+            <h2>Keindahan Desa, Kekayaan Nusantara</h2>
+            <p>Jelajahi tempat-tempat unik dan memukau di desa wisata Indonesia yang kaya akan budaya dan tradisi.</p>
           </div>
         </div><!-- End Carousel Item -->
 
         <div class="carousel-item">
           <img src="assets/img/hero_3.jpg" alt="">
           <div class="carousel-container">
-            <h2>Providing Fresh Produce Every Single Day</h2>
-            <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+            <h2>Dukung Usaha Lokal, Bangkitkan Ekonomi Desa</h2>
+            <p>Temukan produk kerajinan, kuliner khas, dan layanan lokal yang mengangkat potensi desa.</p>
           </div>
         </div><!-- End Carousel Item -->
 
         <div class="carousel-item">
           <img src="assets/img/hero_4.jpg" alt="">
           <div class="carousel-container">
-            <h2>Farming as a Passione</h2>
-            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius.</p>
+            <h2>Event Desa yang Menginspirasi</h2>
+            <p>Ikuti berbagai acara tradisional dan festival yang menggambarkan keragaman budaya nusantara.</p>
           </div>
         </div><!-- End Carousel Item -->
 
         <div class="carousel-item">
           <img src="assets/img/hero_5.jpg" alt="">
           <div class="carousel-container">
-            <h2>Good Food For All</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h2>Pesan Homestay, Nikmati Ketenangan Desa</h2>
+            <p>Rasakan keramahan lokal dengan menginap di homestay berkualitas di desa wisata.</p>
           </div>
         </div><!-- End Carousel Item -->
 
@@ -92,10 +93,9 @@
                   </svg>
                 </div>
                 <div class="service-item-content">
-                  <h3 class="service-heading">Planting</h3>
+                  <h3 class="service-heading">Rekomendasi Desa Wisata</h3>
                   <p>
-                    Gravida sodales condimentum pellen tesq accumsan orci quam
-                    sagittis sapie
+                    Temukan desa wisata terbaik dengan rekomendasi yang sesuai minat Anda.
                   </p>
                 </div>
               </div>
@@ -113,10 +113,9 @@
                   </svg>
                 </div>
                 <div class="service-item-content">
-                  <h3 class="service-heading">Mulching</h3>
+                  <h3 class="service-heading">Informasi Usaha Lokal</h3>
                   <p>
-                    Gravida sodales condimentum pellen tesq accumsan orci quam
-                    sagittis sapie
+                    Kenali produk khas dan usaha kreatif yang mendukung ekonomi desa.
                   </p>
                 </div>
               </div>
@@ -134,10 +133,9 @@
                   </svg>
                 </div>
                 <div class="service-item-content">
-                  <h3 class="service-heading">Plowing</h3>
+                  <h3 class="service-heading">Pemesanan Tempat Wisata</h3>
                   <p>
-                    Gravida sodales condimentum pellen tesq accumsan orci quam
-                    sagittis sapie
+                    Pesan tempat wisata favorit Anda dengan mudah langsung dari platform kami.
                   </p>
                 </div>
               </div>
@@ -153,10 +151,9 @@
                   </svg>
                 </div>
                 <div class="service-item-content">
-                  <h3 class="service-heading">Mowing</h3>
+                  <h3 class="service-heading">Event Desa Wisata</h3>
                   <p>
-                    Gravida sodales condimentum pellen tesq accumsan orci quam
-                    sagittis sapie
+                    Ikuti event budaya dan festival yang meriah di desa wisata.
                   </p>
                 </div>
               </div>
@@ -174,10 +171,9 @@
                   </svg>
                 </div>
                 <div class="service-item-content">
-                  <h3 class="service-heading">Seeding</h3>
+                  <h3 class="service-heading">Jelajah Kuliner Khas Desa</h3>
                   <p>
-                    Gravida sodales condimentum pellen tesq accumsan orci quam
-                    sagittis sapie
+                    Cicipi kelezatan kuliner khas desa yang menggoda selera.
                   </p>
                 </div>
               </div>
@@ -194,10 +190,9 @@
                   </svg>
                 </div>
                 <div class="service-item-content">
-                  <h3 class="service-heading">Fresh Vegetables</h3>
+                  <h3 class="service-heading">Informasi Homestay</h3>
                   <p>
-                    Gravida sodales condimentum pellen tesq accumsan orci quam
-                    sagittis sapie
+                    Temukan tempat menginap nyaman dengan nuansa lokal desa.
                   </p>
                 </div>
               </div>
@@ -214,10 +209,9 @@
                   </svg>
                 </div>
                 <div class="service-item-content">
-                  <h3 class="service-heading">Watering</h3>
+                  <h3 class="service-heading">Layanan Pendukung</h3>
                   <p>
-                    Gravida sodales condimentum pellen tesq accumsan orci quam
-                    sagittis sapie
+                    Akses informasi transportasi, pemandu wisata, dan layanan pendukung lainnya.
                   </p>
                 </div>
               </div>
@@ -234,10 +228,9 @@
                   </svg>
                 </div>
                 <div class="service-item-content">
-                  <h3 class="service-heading">Vegetable selling</h3>
+                  <h3 class="service-heading">Galeri Multimedia Desa</h3>
                   <p>
-                    Gravida sodales condimentum pellen tesq accumsan orci quam
-                    sagittis sapie
+                    Lihat foto dan video desa wisata yang memukau untuk inspirasi perjalanan Anda.
                   </p>
                 </div>
               </div>
@@ -308,20 +301,18 @@
             </a>
           </div>
           <div class="col-lg-5 order-lg-1" data-aos="fade-up" data-aos-delay="100">
-            <h2 class="content-title mb-4">Plants Make Life Better</h2>
+            <h2 class="content-title mb-4">Upcoming Village Events</h2>
             <p class="mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              necessitatibus placeat, atque qui voluptatem velit explicabo vitae
-              repellendus architecto provident nisi ullam minus asperiores commodi!
-              Tenetur, repellat aliquam nihil illo.
+                Jangan lewatkan kesempatan untuk berpartisipasi dalam event-event menarik di desa kami. 
+                Rasakan pengalaman tak terlupakan dengan keindahan budaya dan alam lokal yang khas.
             </p>
             <ul class="list-unstyled list-check">
-              <li>Lorem ipsum dolor sit amet</li>
-              <li>Velit explicabo vitae repellendu</li>
-              <li>Repellat aliquam nihil illo</li>
+                <li>📅 <strong>Festival Panen Raya</strong> - 20 Desember 2024</li>
+                <li>📅 <strong>Lomba Seni Tradisional</strong> - 5 Januari 2025</li>
+                <li>📅 <strong>Pasar Malam Desa</strong> - 15 Februari 2025</li>
             </ul>
 
-            <p><a href="#" class="btn-cta">Get in touch</a></p>
+            <p><a href="#" class="btn-cta">Lihat Semua Event</a></p>
           </div>
         </div>
       </div>
@@ -331,8 +322,8 @@
     <section id="services-2" class="services-2 section dark-background">
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>Necessitatibus eius consequatur</p>
+        <h2>Untuk Anda</h2>
+        <p>Rekomendasi Desa Terbaik</p>
       </div><!-- End Section Title -->
 
       <div class="services-carousel-wrap">
@@ -378,8 +369,8 @@
                 <div class="service-item">
                   <div class="service-item-contents">
                     <a href="#">
-                      <span class="service-item-category">We do</span>
-                      <h2 class="service-item-title">Planting</h2>
+                      <span class="service-item-category">Raja Ampat</span>
+                      <h2 class="service-item-title">Desa Arborek</h2>
                     </a>
                   </div>
                   <img src="assets/img/img_sq_1.jpg" alt="Image" class="img-fluid">
@@ -389,8 +380,8 @@
                 <div class="service-item">
                   <div class="service-item-contents">
                     <a href="#">
-                      <span class="service-item-category">We do</span>
-                      <h2 class="service-item-title">Mulching</h2>
+                      <span class="service-item-category">Gianyar, Bali</span>
+                      <h2 class="service-item-title">Desa Ubud</h2>
                     </a>
                   </div>
                   <img src="assets/img/img_sq_3.jpg" alt="Image" class="img-fluid">
@@ -400,8 +391,8 @@
                 <div class="service-item">
                   <div class="service-item-contents">
                     <a href="#">
-                      <span class="service-item-category">We do</span>
-                      <h2 class="service-item-title">Watering</h2>
+                      <span class="service-item-category">Nusa Tenggara Timur</span>
+                      <h2 class="service-item-title">Desa Wae Rebo</h2>
                     </a>
                   </div>
                   <img src="assets/img/img_sq_8.jpg" alt="Image" class="img-fluid">
@@ -412,8 +403,8 @@
                 <div class="service-item">
                   <div class="service-item-contents">
                     <a href="#">
-                      <span class="service-item-category">We do</span>
-                      <h2 class="service-item-title">Fertilizing</h2>
+                      <span class="service-item-category">Yogyakarta</span>
+                      <h2 class="service-item-title">Desa Pentingsari</h2>
                     </a>
                   </div>
                   <img src="assets/img/img_sq_4.jpg" alt="Image" class="img-fluid">
@@ -423,8 +414,8 @@
                 <div class="service-item">
                   <div class="service-item-contents">
                     <a href="#">
-                      <span class="service-item-category">We do</span>
-                      <h2 class="service-item-title">Harvesting</h2>
+                      <span class="service-item-category">Bali</span>
+                      <h2 class="service-item-title">Desa Penglipuran</h2>
                     </a>
                   </div>
                   <img src="assets/img/img_sq_5.jpg" alt="Image" class="img-fluid">
@@ -434,8 +425,8 @@
                 <div class="service-item">
                   <div class="service-item-contents">
                     <a href="#">
-                      <span class="service-item-category">We do</span>
-                      <h2 class="service-item-title">Mowing</h2>
+                      <span class="service-item-category">Bali</span>
+                      <h2 class="service-item-title">Desa Pemuteran</h2>
                     </a>
                   </div>
                   <img src="assets/img/img_sq_6.jpg" alt="Image" class="img-fluid">
@@ -445,8 +436,8 @@
                 <div class="service-item">
                   <div class="service-item-contents">
                     <a href="#">
-                      <span class="service-item-category">We do</span>
-                      <h2 class="service-item-title">Seeding Plants</h2>
+                      <span class="service-item-category">Banyuwangi</span>
+                      <h2 class="service-item-title">Desa Tamansari</h2>
                     </a>
                   </div>
                   <img src="assets/img/img_sq_8.jpg" alt="Image" class="img-fluid">
@@ -536,106 +527,115 @@
         <p>Necessitatibus eius consequatur</p>
       </div><!-- End Section Title -->
 
-      <div class="container">
-
+      <div class="container"> 
         <div class="row gy-5">
-
+      
+          <!-- Desa Wisata Unggulan 1 -->
           <div class="col-xl-4 col-md-6">
             <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="100">
-
+      
               <div class="post-img position-relative overflow-hidden">
-                <img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt="">
-                <span class="post-date">December 12</span>
+                <img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt="Desa Wisata Lembah Hijau">
+                <span class="post-date">Lembah Hijau</span>
               </div>
-
+      
               <div class="post-content d-flex flex-column">
-
-                <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis</h3>
-
+      
+                <h3 class="post-title">Pesona Keindahan Alam yang Memukau</h3>
+      
                 <div class="meta d-flex align-items-center">
                   <div class="d-flex align-items-center">
-                    <i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span>
-                  </div>
-                  <span class="px-3 text-black-50">/</span>
-                  <div class="d-flex align-items-center">
-                    <i class="bi bi-folder2"></i> <span class="ps-2">Politics</span>
+                    <i class="bi bi-geo-alt"></i> <span class="ps-2">Kabupaten Bandung</span>
+                    <span class="px-3 text-black-50">/</span>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
                   </div>
                 </div>
-
+      
                 <hr>
-
-                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-
+      
+                <a href="desa-lembah-hijau.html" class="readmore stretched-link"><span>Selengkapnya</span><i class="bi bi-arrow-right"></i></a>
+      
               </div>
-
+      
             </div>
           </div><!-- End post item -->
-
+      
+          <!-- Desa Wisata Unggulan 2 -->
           <div class="col-xl-4 col-md-6">
             <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="200">
-
+      
               <div class="post-img position-relative overflow-hidden">
-                <img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt="">
-                <span class="post-date">July 17</span>
+                <img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt="Desa Wisata Air Jernih">
+                <span class="post-date">Air Jernih</span>
               </div>
-
+      
               <div class="post-content d-flex flex-column">
-
-                <h3 class="post-title">Et repellendus molestiae qui est sed omnis</h3>
-
+      
+                <h3 class="post-title">Nikmati Kejernihan Sungai dan Tradisi Lokal</h3>
+      
                 <div class="meta d-flex align-items-center">
                   <div class="d-flex align-items-center">
-                    <i class="bi bi-person"></i> <span class="ps-2">Mario Douglas</span>
-                  </div>
-                  <span class="px-3 text-black-50">/</span>
-                  <div class="d-flex align-items-center">
-                    <i class="bi bi-folder2"></i> <span class="ps-2">Sports</span>
+                    <i class="bi bi-geo-alt"></i> <span class="ps-2">Kabupaten Sleman</span>
+                    <span class="px-3 text-black-50">/</span>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
                   </div>
                 </div>
-
+      
                 <hr>
-
-                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-
+      
+                <a href="desa-air-jernih.html" class="readmore stretched-link"><span>Selengkapnya</span><i class="bi bi-arrow-right"></i></a>
+      
               </div>
-
+      
             </div>
           </div><!-- End post item -->
-
+      
+          <!-- Desa Wisata Unggulan 3 -->
           <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="post-item position-relative h-100">
-
+      
               <div class="post-img position-relative overflow-hidden">
-                <img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt="">
-                <span class="post-date">September 05</span>
+                <img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt="Desa Wisata Bambu Rindu">
+                <span class="post-date">Bambu Rindu</span>
               </div>
-
+      
               <div class="post-content d-flex flex-column">
-
-                <h3 class="post-title">Quia assumenda est et veritati tirana ploder</h3>
-
+      
+                <h3 class="post-title">Temukan Ketentraman di Tengah Rindangnya Bambu</h3>
+      
                 <div class="meta d-flex align-items-center">
                   <div class="d-flex align-items-center">
-                    <i class="bi bi-person"></i> <span class="ps-2">Lisa Hunter</span>
-                  </div>
-                  <span class="px-3 text-black-50">/</span>
-                  <div class="d-flex align-items-center">
-                    <i class="bi bi-folder2"></i> <span class="ps-2">Economics</span>
+                    <i class="bi bi-geo-alt"></i> <span class="ps-2">Kabupaten Malang</span>
+                    <span class="px-3 text-black-50">/</span>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star text-warning"></i>
+                    <i class="bi bi-star text-warning"></i>
                   </div>
                 </div>
-
+      
                 <hr>
-
-                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-
+      
+                <a href="desa-bambu-rindu.html" class="readmore stretched-link"><span>Selengkapnya</span><i class="bi bi-arrow-right"></i></a>
+      
               </div>
-
+      
             </div>
           </div><!-- End post item -->
-
+      
         </div>
-
       </div>
+      
+      
 
     </section><!-- /Recent Posts Section -->
 
@@ -674,21 +674,7 @@
 
   @include('layouts.footer')
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+  @include('layouts.script')
 
 </body>
 

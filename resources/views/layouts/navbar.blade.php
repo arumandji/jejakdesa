@@ -9,7 +9,7 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="/dashboard" class="active">Beranda</a></li>
+          <li><a href="{{ url('/') }}" class="active">Beranda</a></li>
           <li class="dropdown"><a href="#"><span>Desa Wisata</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="/peta">Peta Desa</a></li>
@@ -23,14 +23,9 @@
           <li><a href="/testimoni">Testimoni</a></li>
           <li class="dropdown"><a href="#"><span>Bantuan</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li class="dropdown"><a href="#"><span>Tentang Kami</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="/visi">Visi</a></li>
-                  <li><a href="/misi">Misi</a></li>
-                  <li><a href="/tim">Tim JejakDesa</a></li>
-                </ul>
+              <li><a href="{{ url('/about') }}">Tentang Kami</a></li>
               </li>
-              <li><a href="#">Hubungi Kami</a></li>
+              <li><a href="{{ url('/contact') }}">Hubungi Kami</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Akun Saya</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>

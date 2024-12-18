@@ -8,20 +8,24 @@ Route::get('/', function () {
     return view('main');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
+Route::get('/blog', function () {
+    return view('blog');
+});
+
+Route::get('/about', function () {
+    return view('partials.about');
 });
 
 Route::get('/usaha', function () {
-    return view('usaha');
+    return view('partials.usaha');
 });
 
-Route::get('/tim', function () {
-    return view('tim');
+Route::get('/contact', function () {
+    return view('partials.contact');
 });
 
 Route::get('/testimoni', function () {
-    return view('testimoni');
+    return view('partials.testimoni');
 });
 
 Route::get('/peta', function () {

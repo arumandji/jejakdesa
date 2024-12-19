@@ -14,16 +14,11 @@
     <!-- Page Title -->
     <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/page-title-bg.webp);">
       <div class="container position-relative">
-        <h1>Testimonials</h1>
-        <p>
-          Home
-          /
-          Testimonials
-        </p>
+        <h1>Testimoni</h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Testimonials</li>
+            <li><a href="/">Beranda</a></li>
+            <li class="current">Testimoni</li>
           </ol>
         </nav>
       </div>

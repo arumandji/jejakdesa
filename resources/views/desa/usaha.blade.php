@@ -13,12 +13,12 @@
     <!-- Page Title -->
     <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/page-title-bg.webp);">
       <div class="container position-relative">
-        <h1>Services</h1>
+        <h1>Usaha Lokal</h1>
 
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="{{ url('/') }}">Home</a></li>
-            <li class="current">Services</li>
+            <li><a href="{{ url('/') }}">Beranda</a></li>
+            <li class="current">Usaha Lokal</li>
           </ol>
         </nav>
       </div>

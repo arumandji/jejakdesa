@@ -14,7 +14,6 @@
             <ul>
               <li><a href="/peta">Peta Desa</a></li>
               <li><a href="/rekomendasi">Rekomendasi</a></li>
-              <li><a href="/pencarian">Pencarian</a></li>
             </ul>
           </li>
           <li><a href="/usaha">Usaha Lokal</a></li>

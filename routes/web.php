@@ -13,21 +13,33 @@ Route::get('/blog', function () {
 });
 
 Route::get('/about', function () {
-    return view('partials.about');
+    return view('desa.about');
 });
 
 Route::get('/usaha', function () {
-    return view('partials.usaha');
+    return view('desa.usaha');
 });
 
 Route::get('/contact', function () {
-    return view('partials.contact');
+    return view('desa.contact');
 });
 
 Route::get('/testimoni', function () {
-    return view('partials.testimoni');
+    return view('desa.testimoni');
 });
 
 Route::get('/peta', function () {
     return view('desa.peta');
+});
+
+Route::get('/rekomendasi', function () {
+    return view('desa.rekomendasi');
+});
+
+Route::get('/event', function () {
+    return view('desa.event');
+});
+
+Route::get('/booking', function () {
+    return view('desa.booking');
 });

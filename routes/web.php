@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Auth\LoginController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -55,3 +56,11 @@ Route::get('/wisata/desa-air-jernih', function () {
 Route::get('/wisata/desa-bambu-rindu', function () {
     return view('wisata.desa-bambu-rindu');
 });
+
+Route::get('login', [LoginController::class, 'showLoginForm'])->name('login.form');
+Route::post('login', [LoginController::class, 'login'])->name('login');
+Route::post('logout', [LoginController::class, 'logout'])->name('logout');
+
+Route::get('/dashboard', function () {
+    return view('home');
+})->middleware('auth');

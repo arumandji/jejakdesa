@@ -242,44 +242,41 @@
 
     <!-- About Section -->
     <section id="about" class="about section">
-
       <div class="content">
         <div class="container">
           <div class="row">
             <div class="col-lg-6 mb-4 mb-lg-0">
-              <img src="assets/img/img_long_5.jpg" alt="Image " class="img-fluid img-overlap" data-aos="zoom-out">
+              <img src="assets/img/img_long_5.jpg" alt="Image" class="img-fluid img-overlap" data-aos="zoom-out">
             </div>
             <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="content-subtitle text-white opacity-50">Why Choose Us</h3>
+              <h3 class="content-subtitle text-white opacity-50">Mengapa Memilih Kami</h3>
               <h2 class="content-title mb-4">
-                More than <strong>50 year experience</strong> in agriculture
-                industry
+                Membawa <strong>Keajaiban Desa</strong> ke Jangkauan Anda
               </h2>
               <p class="opacity-50">
-                Reprehenderit, odio laboriosam? Blanditiis quae ullam quasi illum
-                minima nostrum perspiciatis error consequatur sit nulla.
+                JejakDesa hadir untuk memperkenalkan keindahan dan potensi desa-desa wisata di Indonesia. Dengan misi memberdayakan masyarakat lokal dan memperkuat perekonomian desa, kami menjadi jembatan bagi wisatawan untuk merasakan pengalaman autentik di setiap sudut desa.
               </p>
-
+    
               <div class="row my-5">
                 <div class="col-lg-12 d-flex align-items-start mb-4">
-                  <i class="bi bi-cloud-rain me-4 display-6"></i>
+                  <i class="bi bi-geo-alt me-4 display-6"></i>
                   <div>
-                    <h4 class="m-0 h5 text-white">Plants needs rain</h4>
-                    <p class="text-white opacity-50">Lorem ipsum dolor sit amet.</p>
+                    <h4 class="m-0 h5 text-white">Keunikan Setiap Desa</h4>
+                    <p class="text-white opacity-50">Temukan keindahan alam, budaya, dan tradisi yang khas dari setiap desa wisata.</p>
                   </div>
                 </div>
                 <div class="col-lg-12 d-flex align-items-start mb-4">
-                  <i class="bi bi-heart me-4 display-6"></i>
+                  <i class="bi bi-people me-4 display-6"></i>
                   <div>
-                    <h4 class="m-0 h5 text-white">Love organic foods</h4>
-                    <p class="text-white opacity-50">Lorem ipsum dolor sit amet.</p>
+                    <h4 class="m-0 h5 text-white">Pemberdayaan Lokal</h4>
+                    <p class="text-white opacity-50">Semua layanan melibatkan penduduk setempat, mendukung ekonomi desa secara langsung.</p>
                   </div>
                 </div>
                 <div class="col-lg-12 d-flex align-items-start">
-                  <i class="bi bi-shop me-4 display-6"></i>
+                  <i class="bi bi-globe me-4 display-6"></i>
                   <div>
-                    <h4 class="m-0 h5 text-white">Sell vegies</h4>
-                    <p class="text-white opacity-50">Lorem ipsum dolor sit amet.</p>
+                    <h4 class="m-0 h5 text-white">Platform Mudah Digunakan</h4>
+                    <p class="text-white opacity-50">Informasi seperti peta wisata dan rekomendasi aktivitas dapat diakses dengan mudah melalui JejakDesa.</p>
                   </div>
                 </div>
               </div>
@@ -287,7 +284,8 @@
           </div>
         </div>
       </div>
-    </section><!-- /About Section -->
+    </section>
+    <!-- /About Section -->
 
     <!-- About 3 Section -->
     <section id="about-3" class="about-3 section">
@@ -301,7 +299,7 @@
             </a>
           </div>
           <div class="col-lg-5 order-lg-1" data-aos="fade-up" data-aos-delay="100">
-            <h2 class="content-title mb-4">Upcoming Village Events</h2>
+            <h2 class="content-title mb-4">Acara Desa Mendatang</h2>
             <p class="mb-4">
                 Jangan lewatkan kesempatan untuk berpartisipasi dalam event-event menarik di desa kami. 
                 Rasakan pengalaman tak terlupakan dengan keindahan budaya dan alam lokal yang khas.
@@ -454,8 +452,8 @@
     <section class="testimonials-12 testimonials section" id="testimonials">
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>TESTIMONIALS</h2>
-        <p>Necessitatibus eius consequatur</p>
+        <h2>TESTIMONI</h2>
+        <p>Dari beberapa pengguna platform kami</p>
       </div><!-- End Section Title -->
 
       <div class="testimonial-wrap">
@@ -466,12 +464,12 @@
                 <img src="assets/img/testimonials/testimonials-1.jpg" alt="Testimonial author">
                 <blockquote>
                   <p>
-                    “Lorem ipsum dolor sit, amet consectetur adipisicing
-                    elit. Provident deleniti iusto molestias, dolore vel fugiat
-                    ab placeat ea?”
+                    “Saya sangat terkesan dengan pengalaman saya di Desa Bambu Rindu. 
+                    Suasana alamnya sangat menenangkan dan cocok untuk melepaskan penat.
+                     Selain itu, penduduk lokalnya sangat ramah. Saya pasti akan kembali ke sini!”
                   </p>
                 </blockquote>
-                <p class="client-name">James Smith</p>
+                <p class="client-name">Ari Pratama, Surabaya</p>
               </div>
             </div>
             <div class="col-md-6 mb-4 mb-md-4">
@@ -479,12 +477,13 @@
                 <img src="assets/img/testimonials/testimonials-2.jpg" alt="Testimonial author">
                 <blockquote>
                   <p>
-                    “Lorem ipsum dolor sit, amet consectetur adipisicing
-                    elit. Provident deleniti iusto molestias, dolore vel fugiat
-                    ab placeat ea?”
+                    “JejakDesa memberikan informasi yang sangat berguna 
+                    mengenai desa wisata di berbagai daerah. Saya menemukan 
+                    Desa Air Jernih di Sleman berkat platform ini, 
+                    dan itu menjadi pengalaman liburan terbaik saya!”
                   </p>
                 </blockquote>
-                <p class="client-name">Kate Smith</p>
+                <p class="client-name">Siti Nurul, Yogyakarta</p>
               </div>
             </div>
             <div class="col-md-6 mb-4 mb-md-4">
@@ -492,12 +491,13 @@
                 <img src="assets/img/testimonials/testimonials-3.jpg" alt="Testimonial author">
                 <blockquote>
                   <p>
-                    “Lorem ipsum dolor sit, amet consectetur adipisicing
-                    elit. Provident deleniti iusto molestias, dolore vel fugiat
-                    ab placeat ea?”
+                    “Sebagai pencinta alam, saya selalu mencari tempat wisata 
+                    yang belum banyak diketahui orang. JejakDesa membantu saya 
+                    menemukan tempat-tempat baru yang menakjubkan, 
+                    salah satunya adalah Desa Bambu Rindu. Wajib dikunjungi!”
                   </p>
                 </blockquote>
-                <p class="client-name">Claire Anderson</p>
+                <p class="client-name">Rina Anggraini, Bali</p>
               </div>
             </div>
             <div class="col-md-6 mb-4 mb-md-4">
@@ -505,12 +505,13 @@
                 <img src="assets/img/testimonials/testimonials-4.jpg" alt="Testimonial author">
                 <blockquote>
                   <p>
-                    “Lorem ipsum dolor sit, amet consectetur adipisicing
-                    elit. Provident deleniti iusto molestias, dolore vel fugiat
-                    ab placeat ea?”
+                    “Sangat puas dengan layanan dan informasi yang diberikan oleh JejakDesa. 
+                    Website ini sangat membantu dalam merencanakan perjalanan saya, termasuk 
+                    memberikan info detail 
+                    tentang desa wisata yang jarang diketahui banyak orang”
                   </p>
                 </blockquote>
-                <p class="client-name">Dan Smith</p>
+                <p class="client-name">Budi Santoso, Bandung</p>
               </div>
             </div>
           </div>
@@ -523,8 +524,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Recent Posts</h2>
-        <p>Necessitatibus eius consequatur</p>
+        <h2>Baru - Baru Ini</h2>
+        <p>Desa dan Tempat Wisata Terbaik</p>
       </div><!-- End Section Title -->
 
       <div class="container"> 
@@ -557,7 +558,7 @@
       
                 <hr>
       
-                <a href="desa-lembah-hijau.html" class="readmore stretched-link"><span>Selengkapnya</span><i class="bi bi-arrow-right"></i></a>
+                <a href="/wisata/desa-lembah-hijau" class="readmore stretched-link"><span>Selengkapnya</span><i class="bi bi-arrow-right"></i></a>
       
               </div>
       
@@ -591,7 +592,7 @@
       
                 <hr>
       
-                <a href="desa-air-jernih.html" class="readmore stretched-link"><span>Selengkapnya</span><i class="bi bi-arrow-right"></i></a>
+                <a href="/wisata/desa-air-jernih" class="readmore stretched-link"><span>Selengkapnya</span><i class="bi bi-arrow-right"></i></a>
       
               </div>
       
@@ -625,7 +626,7 @@
       
                 <hr>
       
-                <a href="desa-bambu-rindu.html" class="readmore stretched-link"><span>Selengkapnya</span><i class="bi bi-arrow-right"></i></a>
+                <a href="/wisata/desa-bambu-rindu" class="readmore stretched-link"><span>Selengkapnya</span><i class="bi bi-arrow-right"></i></a>
       
               </div>
       

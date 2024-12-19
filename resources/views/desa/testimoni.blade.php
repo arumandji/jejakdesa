@@ -28,8 +28,8 @@
     <section class="testimonials-12 testimonials section" id="testimonials">
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>TESTIMONIALS</h2>
-        <p>Necessitatibus eius consequatur</p>
+        <h2>TESTIMONI</h2>
+        <p>Dari beberapa pengguna platform kami</p>
       </div><!-- End Section Title -->
 
       <div class="testimonial-wrap">
@@ -40,12 +40,12 @@
                 <img src="assets/img/testimonials/testimonials-1.jpg" alt="Testimonial author">
                 <blockquote>
                   <p>
-                    “Lorem ipsum dolor sit, amet consectetur adipisicing
-                    elit. Provident deleniti iusto molestias, dolore vel fugiat
-                    ab placeat ea?”
+                    “Saya sangat terkesan dengan pengalaman saya di Desa Bambu Rindu. 
+                    Suasana alamnya sangat menenangkan dan cocok untuk melepaskan penat.
+                     Selain itu, penduduk lokalnya sangat ramah. Saya pasti akan kembali ke sini!”
                   </p>
                 </blockquote>
-                <p class="client-name">James Smith</p>
+                <p class="client-name">Ari Pratama, Surabaya</p>
               </div>
             </div>
             <div class="col-md-6 mb-4 mb-md-4">
@@ -53,12 +53,13 @@
                 <img src="assets/img/testimonials/testimonials-2.jpg" alt="Testimonial author">
                 <blockquote>
                   <p>
-                    “Lorem ipsum dolor sit, amet consectetur adipisicing
-                    elit. Provident deleniti iusto molestias, dolore vel fugiat
-                    ab placeat ea?”
+                    “JejakDesa memberikan informasi yang sangat berguna 
+                    mengenai desa wisata di berbagai daerah. Saya menemukan 
+                    Desa Air Jernih di Sleman berkat platform ini, 
+                    dan itu menjadi pengalaman liburan terbaik saya!”
                   </p>
                 </blockquote>
-                <p class="client-name">Kate Smith</p>
+                <p class="client-name">Siti Nurul, Yogyakarta</p>
               </div>
             </div>
             <div class="col-md-6 mb-4 mb-md-4">
@@ -66,12 +67,13 @@
                 <img src="assets/img/testimonials/testimonials-3.jpg" alt="Testimonial author">
                 <blockquote>
                   <p>
-                    “Lorem ipsum dolor sit, amet consectetur adipisicing
-                    elit. Provident deleniti iusto molestias, dolore vel fugiat
-                    ab placeat ea?”
+                    “Sebagai pencinta alam, saya selalu mencari tempat wisata 
+                    yang belum banyak diketahui orang. JejakDesa membantu saya 
+                    menemukan tempat-tempat baru yang menakjubkan, 
+                    salah satunya adalah Desa Bambu Rindu. Wajib dikunjungi!”
                   </p>
                 </blockquote>
-                <p class="client-name">Claire Anderson</p>
+                <p class="client-name">Rina Anggraini, Bali</p>
               </div>
             </div>
             <div class="col-md-6 mb-4 mb-md-4">
@@ -79,12 +81,13 @@
                 <img src="assets/img/testimonials/testimonials-4.jpg" alt="Testimonial author">
                 <blockquote>
                   <p>
-                    “Lorem ipsum dolor sit, amet consectetur adipisicing
-                    elit. Provident deleniti iusto molestias, dolore vel fugiat
-                    ab placeat ea?”
+                    “Sangat puas dengan layanan dan informasi yang diberikan oleh JejakDesa. 
+                    Website ini sangat membantu dalam merencanakan perjalanan saya, termasuk 
+                    memberikan info detail 
+                    tentang desa wisata yang jarang diketahui banyak orang”
                   </p>
                 </blockquote>
-                <p class="client-name">Dan Smith</p>
+                <p class="client-name">Budi Santoso, Bandung</p>
               </div>
             </div>
           </div>

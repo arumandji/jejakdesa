@@ -43,3 +43,15 @@ Route::get('/event', function () {
 Route::get('/booking', function () {
     return view('desa.booking');
 });
+
+Route::get('/wisata/desa-lembah-hijau', function () {
+    return view('wisata.desa-lembah-hijau');
+});
+
+Route::get('/wisata/desa-air-jernih', function () {
+    return view('wisata.desa-air-jernih');
+});
+
+Route::get('/wisata/desa-bambu-rindu', function () {
+    return view('wisata.desa-bambu-rindu');
+});

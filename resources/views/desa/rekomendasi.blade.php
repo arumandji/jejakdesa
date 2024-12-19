@@ -39,7 +39,7 @@
               <div class="meta d-flex align-items-end">
                 <span class="post-date"><span>12</span>December</span>
                 <div class="d-flex align-items-center">
-                  <i class="bi bi-person"></i> <span class="ps-2">John Doe</span>
+                  <i class="bi bi-person"></i> <span class="ps-2">Jelo</span>
                 </div>
                 <span class="px-3 text-black-50">/</span>
                 <div class="d-flex align-items-center">
@@ -49,8 +49,8 @@
 
               <div class="post-content d-flex flex-column">
 
-                <h3 class="post-title">Dolorum optio tempore voluptas dignissimos</h3>
-                <a href="{{ asset('') }}blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                <h3 class="post-title">Keindahan Alam Tersembunyi di Desa Air Jernih</h3>
+                <a href="{{ asset('') }}wisata/desa-lembah-hijau" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
 
               </div>
 
@@ -67,7 +67,7 @@
               <div class="meta d-flex align-items-end">
                 <span class="post-date"><span>19</span>March</span>
                 <div class="d-flex align-items-center">
-                  <i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span>
+                  <i class="bi bi-person"></i> <span class="ps-2">Arum</span>
                 </div>
                 <span class="px-3 text-black-50">/</span>
                 <div class="d-flex align-items-center">
@@ -76,8 +76,8 @@
               </div>
 
               <div class="post-content d-flex flex-column">
-                <h3 class="post-title">Nisi magni odit consequatur autem nulla dolorem</h3>
-                <a href="{{ asset('') }}blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                <h3 class="post-title">Desa Gubeng: Tempat Wisata Alam yang Wajib Dikunjungi</h3>
+                <a href="{{ asset('') }}wisata/desa-lembah-hijau" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
               </div>
 
             </article>
@@ -92,7 +92,7 @@
               <div class="meta d-flex align-items-end">
                 <span class="post-date"><span>24</span>June</span>
                 <div class="d-flex align-items-center">
-                  <i class="bi bi-person"></i> <span class="ps-2">Maria Doe</span>
+                  <i class="bi bi-person"></i> <span class="ps-2">Sutan</span>
                 </div>
                 <span class="px-3 text-black-50">/</span>
                 <div class="d-flex align-items-center">
@@ -101,8 +101,8 @@
               </div>
 
               <div class="post-content d-flex flex-column">
-                <h3 class="post-title">Possimus soluta ut id suscipit ea ut. In quo quia et soluta libero sit sint.</h3>
-                <a href="{{ asset('') }}blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                <h3 class="post-title">Menyatu dengan Alam di Desa Bambu Rindu Malang.</h3>
+                <a href="{{ asset('') }}wisata/desa-lembah-hijau" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
               </div>
 
             </article>
@@ -117,7 +117,7 @@
               <div class="meta d-flex align-items-end">
                 <span class="post-date"><span>05</span>August</span>
                 <div class="d-flex align-items-center">
-                  <i class="bi bi-person"></i> <span class="ps-2">Maria Doe</span>
+                  <i class="bi bi-person"></i> <span class="ps-2">Sutan</span>
                 </div>
                 <span class="px-3 text-black-50">/</span>
                 <div class="d-flex align-items-center">
@@ -126,8 +126,8 @@
               </div>
 
               <div class="post-content d-flex flex-column">
-                <h3 class="post-title">Non rem rerum nam cum quo minus explicabo eius exercitationem.</h3>
-                <a href="{{ asset('') }}blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                <h3 class="post-title">Pesona Hutan Bambu Rindu: Wisata Alam yang Menenangkan.</h3>
+                <a href="{{ asset('') }}wisata/desa-lembah-hijau" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
               </div>
 
             </article>
@@ -143,7 +143,7 @@
               <div class="meta d-flex align-items-end">
                 <span class="post-date"><span>17</span>September</span>
                 <div class="d-flex align-items-center">
-                  <i class="bi bi-person"></i> <span class="ps-2">John Parker</span>
+                  <i class="bi bi-person"></i> <span class="ps-2">Jelo</span>
                 </div>
                 <span class="px-3 text-black-50">/</span>
                 <div class="d-flex align-items-center">
@@ -153,8 +153,8 @@
 
               <div class="post-content d-flex flex-column">
 
-                <h3 class="post-title">Accusamus quaerat aliquam qui debitis facilis consequatur</h3>
-                <a href="{{ asset('') }}blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                <h3 class="post-title">Menelusuri Keindahan Alam Desa Bambu Rindu</h3>
+                <a href="{{ asset('') }}wisata/desa-lembah-hijau" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
 
               </div>
 
@@ -171,7 +171,7 @@
               <div class="meta d-flex align-items-end">
                 <span class="post-date"><span>07</span>December</span>
                 <div class="d-flex align-items-center">
-                  <i class="bi bi-person"></i> <span class="ps-2">Julia White</span>
+                  <i class="bi bi-person"></i> <span class="ps-2">Arum</span>
                 </div>
                 <span class="px-3 text-black-50">/</span>
                 <div class="d-flex align-items-center">
@@ -181,8 +181,8 @@
 
               <div class="post-content d-flex flex-column">
 
-                <h3 class="post-title">Distinctio provident quibusdam numquam aperiam aut</h3>
-                <a href="{{ asset('') }}blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                <h3 class="post-title">Menikmati Keindahan Alam di Lembah Hijau</h3>
+                <a href="{{ asset('') }}wisata/desa-lembah-hijau" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
 
               </div>
 

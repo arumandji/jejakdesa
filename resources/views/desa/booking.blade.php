@@ -22,246 +22,94 @@
       </div>
     </div><!-- End Page Title -->
 
-    {{-- <!-- Blog Posts 2 Section -->
-    <section id="blog-posts-2" class="blog-posts-2 section">
-
-      <div class="container">
-        <div class="row gy-4">
-
-          <div class="col-lg-4">
-            <article class="position-relative h-100">
-
-              <div class="post-img position-relative overflow-hidden">
-                <img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt="">
-              </div>
-
-              <div class="meta d-flex align-items-end">
-                <span class="post-date"><span>12</span>December</span>
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-person"></i> <span class="ps-2">John Doe</span>
-                </div>
-                <span class="px-3 text-black-50">/</span>
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-folder2"></i> <span class="ps-2">Politics</span>
-                </div>
-              </div>
-
-              <div class="post-content d-flex flex-column">
-
-                <h3 class="post-title">Dolorum optio tempore voluptas dignissimos</h3>
-                <a href="{{ asset('') }}blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-
-              </div>
-
-            </article>
-          </div><!-- End post list item -->
-
-          <div class="col-lg-4">
-            <article class="position-relative h-100">
-
-              <div class="post-img position-relative overflow-hidden">
-                <img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt="">
-              </div>
-
-              <div class="meta d-flex align-items-end">
-                <span class="post-date"><span>19</span>March</span>
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span>
-                </div>
-                <span class="px-3 text-black-50">/</span>
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-folder2"></i> <span class="ps-2">Economics</span>
-                </div>
-              </div>
-
-              <div class="post-content d-flex flex-column">
-                <h3 class="post-title">Nisi magni odit consequatur autem nulla dolorem</h3>
-                <a href="{{ asset('') }}blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-              </div>
-
-            </article>
-          </div><!-- End post list item -->
-
-          <div class="col-lg-4">
-            <article class="position-relative h-100">
-
-              <div class="post-img position-relative overflow-hidden">
-                <img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="meta d-flex align-items-end">
-                <span class="post-date"><span>24</span>June</span>
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-person"></i> <span class="ps-2">Maria Doe</span>
-                </div>
-                <span class="px-3 text-black-50">/</span>
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-folder2"></i> <span class="ps-2">Sports</span>
-                </div>
-              </div>
-
-              <div class="post-content d-flex flex-column">
-                <h3 class="post-title">Possimus soluta ut id suscipit ea ut. In quo quia et soluta libero sit sint.</h3>
-                <a href="{{ asset('') }}blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-              </div>
-
-            </article>
-          </div><!-- End post list item -->
-
-          <div class="col-lg-4">
-            <article class="position-relative h-100">
-
-              <div class="post-img position-relative overflow-hidden">
-                <img src="assets/img/blog/blog-4.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="meta d-flex align-items-end">
-                <span class="post-date"><span>05</span>August</span>
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-person"></i> <span class="ps-2">Maria Doe</span>
-                </div>
-                <span class="px-3 text-black-50">/</span>
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-folder2"></i> <span class="ps-2">Sports</span>
-                </div>
-              </div>
-
-              <div class="post-content d-flex flex-column">
-                <h3 class="post-title">Non rem rerum nam cum quo minus explicabo eius exercitationem.</h3>
-                <a href="{{ asset('') }}blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-              </div>
-
-            </article>
-          </div><!-- End post list item -->
-
-          <div class="col-lg-4">
-            <article class="position-relative h-100">
-
-              <div class="post-img position-relative overflow-hidden">
-                <img src="assets/img/blog/blog-5.jpg" class="img-fluid" alt="">
-              </div>
-
-              <div class="meta d-flex align-items-end">
-                <span class="post-date"><span>17</span>September</span>
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-person"></i> <span class="ps-2">John Parker</span>
-                </div>
-                <span class="px-3 text-black-50">/</span>
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-folder2"></i> <span class="ps-2">Politics</span>
-                </div>
-              </div>
-
-              <div class="post-content d-flex flex-column">
-
-                <h3 class="post-title">Accusamus quaerat aliquam qui debitis facilis consequatur</h3>
-                <a href="{{ asset('') }}blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-
-              </div>
-
-            </article>
-          </div><!-- End post list item -->
-
-          <div class="col-lg-4">
-            <article class="position-relative h-100">
-
-              <div class="post-img position-relative overflow-hidden">
-                <img src="assets/img/blog/blog-6.jpg" class="img-fluid" alt="">
-              </div>
-
-              <div class="meta d-flex align-items-end">
-                <span class="post-date"><span>07</span>December</span>
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-person"></i> <span class="ps-2">Julia White</span>
-                </div>
-                <span class="px-3 text-black-50">/</span>
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-folder2"></i> <span class="ps-2">Economics</span>
-                </div>
-              </div>
-
-              <div class="post-content d-flex flex-column">
-
-                <h3 class="post-title">Distinctio provident quibusdam numquam aperiam aut</h3>
-                <a href="{{ asset('') }}blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-
-              </div>
-
-            </article>
-          </div><!-- End post list item -->
-
-        </div>
+    <!-- Booking Section -->
+    <div class="container my-5">
+      <div class="booking-form-container p-4 rounded shadow">
+        <form action="search-results.php" method="GET" class="booking-form">
+          <div class="row g-2">
+            <div class="col-md-3">
+              <label for="destination" class="form-label">Destination</label>
+              <input type="text" class="form-control" id="destination" name="destination" placeholder="Kota, Desa atau Tempat wisata" required>
+            </div>
+            <div class="col-md-2">
+              <label for="checkin" class="form-label">Check-in</label>
+              <input type="date" class="form-control" id="checkin" name="checkin" required>
+            </div>
+            <div class="col-md-2">
+              <label for="checkout" class="form-label">Check-out</label>
+              <input type="date" class="form-control" id="checkout" name="checkout" required>
+            </div>
+            <div class="col-md-3">
+              <label for="rooms_guests" class="form-label">Rooms and Guests</label>
+              <input type="text" class="form-control" id="rooms_guests" name="rooms_guests" placeholder="1 room, 2 adults, 0 children" required>
+            </div>
+            <div class="col-md-2 d-flex align-items-end">
+              <button type="submit" class="btn btn-primary w-100">Search</button>
+            </div>
+          </div>
+          <div class="row mt-3 align-items-center">
+            <div class="col-md-3">
+              <input type="checkbox" id="work_travel" name="work_travel">
+              <label for="work_travel">I'm traveling for work</label>
+            </div>
+            <div class="col-md-9 d-flex gap-2">
+              <span>Star Rating:</span>
+              <button type="button" class="btn btn-outline-secondary">≤ 2 ★</button>
+              <button type="button" class="btn btn-outline-secondary">3 ★</button>
+              <button type="button" class="btn btn-outline-secondary">4 ★</button>
+              <button type="button" class="btn btn-outline-secondary">5 ★</button>
+            </div>
+          </div>
+        </form>
       </div>
+    </div><!-- End Booking Section -->
 
-    </section><!-- /Blog Posts 2 Section -->
-
-    <!-- Blog Pagination Section -->
-    <section id="blog-pagination" class="blog-pagination section">
-
-      <div class="container">
-        <div class="d-flex justify-content-center">
-          <ul>
-            <li><a href="{{ asset('') }}#" class="active">1</a></li>
-          </ul>
-        </div>
-      </div>
-
-    </section><!-- /Blog Pagination Section --> --}}
-
-    <!-- Contact Section -->
     <section id="contact" class="contact section">
-
       <div class="container" data-aos="fade">
-
         <div class="row gy-5 gx-lg-5">
-
           <div class="col-lg-4">
-
             <div class="info">
               <h3>Pemesanan</h3>
-              <p>Kami hadir untuk memperkenalkan desa, budaya,dan mendukung perekonomian lokal.</p>
-
+              <p>Kami hadir untuk memperkenalkan desa, budaya, dan mendukung perekonomian lokal.</p>
               <div class="info-item d-flex">
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                 <div>
                   <h4>Location:</h4>
                   <p>Surabaya, Indonesia</p>
                 </div>
-              </div><!-- End Info Item -->
-
+              </div>
               <div class="info-item d-flex">
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
                   <h4>Email:</h4>
                   <p>jejakdesa@unair.ac.id</p>
                 </div>
-              </div><!-- End Info Item -->
-
+              </div>
               <div class="info-item d-flex">
                 <i class="bi bi-phone flex-shrink-0"></i>
                 <div>
                   <h4>Call:</h4>
                   <p>+62 8315 0559 9789</p>
                 </div>
-              </div><!-- End Info Item -->
-
+              </div>
             </div>
-
           </div>
 
           <div class="col-lg-8">
             <form action="forms/booking.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" placeholder="Message" required=""></textarea>
+                <textarea class="form-control" name="message" placeholder="Message" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
@@ -270,18 +118,12 @@
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
-          </div><!-- End Contact Form -->
-
+          </div>
         </div>
-
       </div>
-
     </section><!-- /Contact Section -->
-
   </main>
 
   @include('layouts.footer')
-
   @include('layouts.script')
-
 </html>

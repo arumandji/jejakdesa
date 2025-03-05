@@ -10,10 +10,11 @@ use Illuminate\Support\Facades\Hash;
 
 class LoginController extends Controller
 {
-    public function loginForm()
+    public function showLoginForm()
     {
         return view('auth.login');
     }
+    
 
     public function login(Request $request)
     {
@@ -44,20 +45,24 @@ class LoginController extends Controller
         // Proses register
         public function register(Request $request)
         {
+            // Validasi inputan dari pengguna
             $request->validate([
-                'name' => 'required|string|max:255',
-                'email' => 'required|email|unique:users',
-                'password' => 'required|min:6|confirmed',
-                'role_id' => 'required|exists:roles,id',
+                'nama_user' => 'required|string|max:255',  // Nama pengguna
+                'username' => 'required|string|max:255|unique:user', // Validasi username
+                'email' => 'required|email|unique:user', // Validasi email
+                'password' => 'required|min:6|confirmed', // Validasi password
             ]);
     
+            // Menyimpan data pengguna baru ke dalam database
             User::create([
-                'name' => $request->name,
+                'nama_user' => $request->nama_user,  // Menggunakan 'nama_user'
+                'username' => $request->username,  // Menambahkan 'username'
                 'email' => $request->email,
-                'password' => Hash::make($request->password),
-                'role_id' => $request->role_id,
+                'password' => Hash::make($request->password), // Enkripsi password
+                'id_jenis_user' => $request->id_jenis_user ?? '1', // Menambahkan nilai default '1' jika tidak ada input untuk id_jenis_user
             ]);
     
+            // Redirect ke halaman login setelah berhasil registrasi
             return redirect()->route('login')->with('success', 'Registration successful! Please login.');
         }
 }

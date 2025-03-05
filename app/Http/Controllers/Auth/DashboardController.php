@@ -1,15 +1,14 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Auth;
 
-use App\Models\Emiten;
-use App\Models\TransaksiHarian;
-use App\Models\User;
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\DB;
 
-class DashboardController
+class DashboardController extends Controller
 {
-
+    public function index()
+    {
+        return view('main');
+    }
 }

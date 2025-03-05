@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('bookings', function (Blueprint $table) {
             $table->id('booking_id');
-            $table->string('id_user', 10);
+            $table->unsignedInteger('id_user'); // Kolom id_user dengan tipe unsignedInteger
             $table->unsignedBigInteger('destination_id');
             $table->enum('status', ['pending', 'confirmed', 'cancelled']);
             $table->timestamps();

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jejak Desa Login</title>
+    <link href="{{ asset('assets/img/logo2.png') }}" rel="icon">
     <style>
         /* General styles */
         body {
@@ -186,25 +187,27 @@
                 <img src="assets/img/logo2.png" alt="Jejak Desa Logo">
             </div>
             <div class="left-box">
-                <h2>Login to Your Account</h2>
-                <p>Login using social networks</p>
+                <h2>Login dengan akunmu, yuk!</h2>
+                <p>Login dengan akun sosmed</p>
                 <div class="social-login">
                     <button class="social-btn facebook">f</button>
-                    <button class="social-btn google">G+</button>
+                    <button class="social-btn google">Go</button>
                     <button class="social-btn linkedin">in</button>
                 </div>
-                <p>OR</p>
+                <p>ATAU</p>
                 <form method="POST" action="{{ route('login') }}">
                     @csrf
                     <input type="email" placeholder="Email" name="email" required>
                     <input type="password" placeholder="Password" name="password" required>
-                    <button type="submit" class="btn">Sign In</button>
+                    <button type="submit" class="btn">Masuk</button>
                 </form>
             </div>
             <div class="right-box">
-                <h2>New Here?</h2>
-                <p>Sign up and discover a great amount of new opportunities!</p>
-                <button class="signup-btn">Sign Up</button>
+                <h2>Masih Baru?</h2>
+                <p>Bikin akun dulu yuk, sebelum menjelajah wisata!</p>
+                <a href="{{ route('register') }}">
+                    <button class="signup-btn">Sign Up</button>
+                </a>
             </div>
         </div>
     </div>

@@ -12,7 +12,8 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('user', function (Blueprint $table) {
-            $table->string('id_user', 10)->primary();
+            // Mengubah id_user menjadi auto-increment
+            $table->increments('id_user');  // Kolom auto-increment dan primary key
             $table->string('nama_user', 255);
             $table->string('username', 255)->unique();
             $table->string('password', 255);

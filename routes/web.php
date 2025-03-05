@@ -1,12 +1,13 @@
 <?php
 
 use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\Auth\DashboardController;
 use Illuminate\Support\Facades\Route;
 
 
 
 Route::get('/', function () {
-    return view('main');
+    return redirect()->route('login');
 });
 
 Route::get('/blog', function () {
@@ -60,7 +61,14 @@ Route::get('/wisata/desa-bambu-rindu', function () {
 Route::get('login', [LoginController::class, 'showLoginForm'])->name('login.form');
 Route::post('login', [LoginController::class, 'login'])->name('login');
 Route::post('logout', [LoginController::class, 'logout'])->name('logout');
+Route::get('/register', [LoginController::class, 'registerForm'])->name('register');
 
-Route::get('/dashboard', function () {
-    return view('home');
-})->middleware('auth');
+// Rute untuk proses register (POST)
+Route::post('/register', [LoginController::class, 'register'])->name('register.post');
+
+// Route::get('/dashboard', function () {
+//     return view('home');
+// })->middleware('auth');
+
+    // Dashboard
+    Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');

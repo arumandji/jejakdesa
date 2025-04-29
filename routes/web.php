@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\DashboardController;
+use App\Http\Controllers\Auth\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -65,6 +66,14 @@ Route::get('/register', [LoginController::class, 'registerForm'])->name('registe
 
 // Rute untuk proses register (POST)
 Route::post('/register', [LoginController::class, 'register'])->name('register.post');
+
+// Route::get('/profile', [ProfileController::class, 'show'])->name('profile');
+// Route::post('/profile/update', [ProfileController::class, 'update'])->name('profile.update');
+Route::middleware(['auth'])->group(function () {
+    Route::get('/profile', [ProfileController::class, 'show'])->name('profile');  // Halaman profil
+    Route::get('/profile/edit', [ProfileController::class, 'edit'])->name('profile.edit'); // Halaman edit profil
+    Route::post('/profile/update', [ProfileController::class, 'update'])->name('profile.update'); // Proses update profil
+});
 
 // Route::get('/dashboard', function () {
 //     return view('home');

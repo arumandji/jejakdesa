@@ -27,7 +27,9 @@ class LoginController extends Controller
             return redirect()->route('dashboard');
         }
 
-        return back()->withErrors(['email' => 'Invalid credentials.']);
+        return back()->withErrors([
+            'email' => 'Invalid credentials.',
+        ]);       
     }
 
     public function logout()
@@ -51,8 +53,11 @@ class LoginController extends Controller
                 'username' => 'required|string|max:255|unique:user', // Validasi username
                 'email' => 'required|email|unique:user', // Validasi email
                 'password' => 'required|min:6|confirmed', // Validasi password
+            ], [
+                // Custom error messages
+                'password.min' => 'Password harus terdiri dari minimal 6 karakter.',  // Menambahkan pesan khusus untuk password
             ]);
-    
+            
             // Menyimpan data pengguna baru ke dalam database
             User::create([
                 'nama_user' => $request->nama_user,  // Menggunakan 'nama_user'
@@ -61,7 +66,7 @@ class LoginController extends Controller
                 'password' => Hash::make($request->password), // Enkripsi password
                 'id_jenis_user' => $request->id_jenis_user ?? '1', // Menambahkan nilai default '1' jika tidak ada input untuk id_jenis_user
             ]);
-    
+        
             // Redirect ke halaman login setelah berhasil registrasi
             return redirect()->route('login')->with('success', 'Registration successful! Please login.');
         }

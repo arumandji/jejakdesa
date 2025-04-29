@@ -197,18 +197,37 @@
                 <p>ATAU</p>
                 <form action="{{ route('register') }}" method="POST">
                     @csrf
-                        <label for="nama_user"></label>
-                        <input type="text" id="nama_user" name="nama_user" placeholder="Nama" required>
-                        <label for="username"></label>
-                        <input type="text" id="username" name="username" placeholder="Username" required>
-                        <label for="email"></label>
-                        <input type="email" id="email" name="email" placeholder="Email" required>
-                        <label for="password"></label>
-                        <input type="password" id="password" name="password" placeholder="Password" required>
-                        <label for="password_confirmation"></label>
-                        <input type="password" id="password_confirmation" name="password_confirmation" placeholder="Konfirmasi Password" required>
+                
+                    <label for="nama_user"></label>
+                    <input type="text" id="nama_user" name="nama_user" placeholder="Nama" value="{{ old('nama_user') }}" required>
+                    @error('nama_user')
+                        <div class="alert alert-danger">{{ $message }}</div>
+                    @enderror
+                
+                    <label for="username"></label>
+                    <input type="text" id="username" name="username" placeholder="Username" value="{{ old('username') }}" required>
+                    @error('username')
+                        <div class="alert alert-danger">{{ $message }}</div>
+                    @enderror
+                
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" placeholder="Email" value="{{ old('email') }}" required>
+                    @error('email')
+                        <div class="alert alert-danger">{{ $message }}</div>
+                    @enderror
+                
+                    <label for="password"></label>
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                    @error('password')
+                        <div class="alert alert-danger">{{ $message }}</div>
+                    @enderror
+                
+                    <label for="password_confirmation"></label>
+                    <input type="password" id="password_confirmation" name="password_confirmation" placeholder="Konfirmasi Password" required>
+                
                     <button type="submit" class="btn">Registrasi</button>
                 </form>
+                
             </div>
             <div class="right-box">
                 <h2>Sudah punya akun?</h2>

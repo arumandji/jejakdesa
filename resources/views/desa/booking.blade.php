@@ -32,27 +32,23 @@
               <input type="text" class="form-control" id="destination" name="destination" placeholder="Kota, Desa atau Tempat wisata" required>
             </div>
             <div class="col-md-2">
-              <label for="checkin" class="form-label">Check-in</label>
-              <input type="date" class="form-control" id="checkin" name="checkin" required>
-            </div>
-            <div class="col-md-2">
-              <label for="checkout" class="form-label">Check-out</label>
+              <label for="checkout" class="form-label">Jadwal</label>
               <input type="date" class="form-control" id="checkout" name="checkout" required>
             </div>
             <div class="col-md-3">
-              <label for="rooms_guests" class="form-label">Rooms and Guests</label>
-              <input type="text" class="form-control" id="rooms_guests" name="rooms_guests" placeholder="1 room, 2 adults, 0 children" required>
+              <label for="rooms_guests" class="form-label">Jumlah Orang</label>
+              <input type="text" class="form-control" id="rooms_guests" name="rooms_guests" placeholder="0 Orang" required>
             </div>
             <div class="col-md-2 d-flex align-items-end">
               <button type="submit" class="btn btn-primary w-100">Search</button>
             </div>
           </div>
           <div class="row mt-3 align-items-center">
-            <div class="col-md-3">
-              <input type="checkbox" id="work_travel" name="work_travel">
-              <label for="work_travel">I'm traveling for work</label>
+            <div class="col-md-3 d-flex align-items-center">
+              <input type="checkbox" id="work_travel" name="work_travel" style="margin-right: 8px;">
+              <label for="work_travel" class="mb-0" style="font-size: 14px;">Saya mengunjungi untuk bekerja</label>
             </div>
-            <div class="col-md-9 d-flex gap-2">
+            <div class="col-md-9 d-flex align-items-center gap-2">
               <span>Star Rating:</span>
               <button type="button" class="btn btn-outline-secondary">≤ 2 ★</button>
               <button type="button" class="btn btn-outline-secondary">3 ★</button>
@@ -63,6 +59,60 @@
         </form>
       </div>
     </div><!-- End Booking Section -->
+
+    <!-- Desa Wisata Section -->
+<div class="container my-5">
+  <h3 class="mb-4">Desa Wisata Pilihan</h3>
+  <div class="row g-4">
+    <!-- Card 1 -->
+    <div class="col-md-6">
+      <div class="card shadow-sm rounded">
+        <div class="row g-0">
+          <div class="col-4">
+            <img src="assets/img/desa1.jpg" class="img-fluid rounded-start" alt="Amazing Dream">
+          </div>
+          <div class="col-8">
+            <div class="card-body">
+              <h5 class="card-title text-primary">Amazing Dream</h5>
+              <p class="card-text mb-1">
+                <a href="#" class="text-decoration-none">Wiyung, Surabaya</a> · 6.9 km from downtown
+              </p>
+              <p class="card-text mb-1"><strong>Include</strong></p>
+              <p class="card-text mb-1">Transportasi, Penginapan</p>
+              <p class="card-text text-success mb-1"><i class="fas fa-check"></i> Free cancellation</p>
+              <p class="card-text fw-bold mb-2">Rp 2,268,000 <small class="text-muted"><del>Rp 2,835,000</del></small></p>
+              <a href="#" class="btn btn-primary btn-sm">See availability</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Card 2 -->
+    <div class="col-md-6">
+      <div class="card shadow-sm rounded">
+        <div class="row g-0">
+          <div class="col-4">
+            <img src="assets/img/desa2.jpg" class="img-fluid rounded-start" alt="Apartment Trillium Residence 3BR">
+          </div>
+          <div class="col-8">
+            <div class="card-body">
+              <h5 class="card-title text-primary">Apartment Trillium Residence 3BR</h5>
+              <p class="card-text mb-1">
+                <a href="#" class="text-decoration-none">Genteng, Surabaya</a> · 3.2 km from downtown
+              </p>
+              <p class="card-text mb-1"><strong>Include</strong></p>
+              <p class="card-text mb-1">Transportasi, Penginapan</p>
+              <p class="card-text text-success mb-1"><i class="fas fa-check"></i> Free cancellation</p>
+              <p class="card-text fw-bold mb-2">Rp 10,110,957 <small class="text-muted"><del>Rp 12,638,696</del></small></p>
+              <a href="#" class="btn btn-primary btn-sm">See availability</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Tambah card lain sesuai kebutuhan -->
+  </div>
+</div>
 
     <section id="contact" class="contact section">
       <div class="container" data-aos="fade">

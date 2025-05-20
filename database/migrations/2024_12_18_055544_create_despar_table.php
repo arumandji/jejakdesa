@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('despar', function (Blueprint $table) {
             $table->id('destination_id');
             $table->string('name', 255);
+            $table->string('image');
             $table->text('description')->nullable();
             $table->unsignedBigInteger('village_id');
             $table->decimal('price', 10, 2);

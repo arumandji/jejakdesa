@@ -18,4 +18,10 @@ class User extends Authenticatable
 
         protected $fillable = [
         'nama_user', 'username', 'password', 'email', 'id_jenis_user'];
+
+        // Menambahkan relasi dengan jenis_user
+    public function jenisUser()
+    {
+        return $this->belongsTo(JenisUser::class, 'id_jenis_user', 'id_jenis_user');
+    }
 }

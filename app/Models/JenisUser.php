@@ -19,4 +19,9 @@ class JenisUser extends Model
     ];
 
     public $timestamps = true; // Pastikan Laravel mengelola created_at dan updated_at
+
+        public function users()
+    {
+        return $this->hasMany(User::class, 'id_jenis_user', 'id_jenis_user');
+    }
 }

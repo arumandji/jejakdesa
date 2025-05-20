@@ -115,7 +115,7 @@
         }
 
         form .btn {
-            width: 100%;
+            width: 100px;
             padding: 12px;
             border: none;
             border-radius: 5px;

@@ -115,7 +115,7 @@
         }
 
         form .btn {
-            width: 100%;
+            width: 100px;
             padding: 12px;
             border: none;
             border-radius: 5px;
@@ -198,7 +198,17 @@
                 <form method="POST" action="{{ route('login') }}">
                     @csrf
                     <input type="email" placeholder="Email" name="email" required>
+                    @if ($errors->has('email'))
+                        <div style="color: red; font-size: 14px;">
+                            {{ $errors->first('email') }}
+                        </div>
+                    @endif
                     <input type="password" placeholder="Password" name="password" required>
+                    @if ($errors->has('password'))
+                        <div style="color: red; font-size: 14px;">
+                            {{ $errors->first('password') }}
+                        </div>
+                    @endif
                     <button type="submit" class="btn">Masuk</button>
                 </form>
             </div>
